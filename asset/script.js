@@ -21,29 +21,13 @@ setInterval(() => {
     SetRandomText()
 }, 2000);
 
-const tables = [
-    'Yenix Hub',
-    'Sunbite',
-    'Thanos',
-    "Emerald",
-    "Tee",
-    "Pongsathon"
-];
-
-
-function SetRandomTitle() {
-    var randomtext = Math.floor(Math.random() * tables.length)
-    var found = tables[randomtext]
-    document.title = found
-}
-
 setInterval(() => {
     SetRandomTitle()
 }, 1500);
 
 
 function Typing() {
-    const text = "Sunbite."
+    const text = "Pongsathon Bumrungchue"
     let index = 0
     const speed = 100 
 
